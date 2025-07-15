@@ -67,4 +67,29 @@ This allows quick comparison of business health and profitability.
 
 ---
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/capbot.git
+cd capbot
+
+python -m venv venv
+venv\Scripts\activate  # on Windows
+
+pip install -r requirements.txt
+
+Create a .env file:
+
+HUGGINGFACEHUB_API_TOKEN=your_token_here
+⚠️ Keep this file local — it is ignored by Git for safety.
+
+💻 Run the Streamlit App
+
+streamlit run app.py
+
+🙋 Author
+Built with 💻 and 🧠 by
+Harsh Yadav
+GitHub: @Harshhuu1
+
 
